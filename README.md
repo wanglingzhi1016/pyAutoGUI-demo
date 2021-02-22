@@ -57,7 +57,7 @@ import pyautogui
 import time
 # 系统准备时间
 time.sleep(2)
-# 获取帮助菜单的位置
+# 获取帮助菜单的位置(随便在屏幕上截个图命名为btn_help.png，此方法会找到这张图片的坐标)
 help_pos = pyautogui.locateOnScreen("btn_help.png")
 goto_pos = pyautogui.center(help_pos)
 # 移动鼠标
